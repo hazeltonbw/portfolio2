@@ -14,6 +14,39 @@ html,
 body {
   width: 100%;
   height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+@layer base {
+  h1 {
+    @apply text-4xl;
+  }
+
+  h2 {
+    @apply text-xl;
+  }
+
+  a {
+    @apply text-sky-900;
+    @apply dark:text-white;
+  }
+
+  article {
+    @apply bg-white;
+    @apply text-sky-900;
+    @apply shadow-md;
+    @apply transition-shadow;
+    @apply duration-300;
+    @apply hover:shadow-sky-500;
+    @apply dark:text-white;
+    @apply dark:bg-slate-800;
+    @apply dark:hover:shadow-slate-700;
+  }
 }
 
 #fs-frm input,
@@ -38,7 +71,7 @@ body {
 #fs-frm label,
 #fs-frm ::placeholder {
   font-size: 1rem;
-  color: theme("colors.sky.700");
+  color: theme('colors.sky.700');
   margin-bottom: 0.5rem;
   padding-top: 0.2rem;
   display: flex;
@@ -46,7 +79,7 @@ body {
 }
 
 #fs-frm ::placeholder {
-  color: theme("colors.gray.400");
+  color: theme('colors.gray.400');
 }
 
 /* border, padding, margin, width */
@@ -57,7 +90,8 @@ body {
 #fs-frm #card-element {
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-  background-color: theme("colors.gray.50");
+  color: theme('colors.sky.900');
+  background-color: theme('colors.gray.50');
   padding: 0.75em 1rem;
   margin-bottom: 1.5rem;
 }
@@ -65,10 +99,10 @@ body {
 #fs-frm input:focus,
 #fs-frm select:focus,
 #fs-frm textarea:focus {
-  background-color: theme("colors.gray.100");
+  /* background-color: theme('colors.gray.100'); */
   outline-style: solid;
   outline-width: thin;
-  outline-color: theme("colors.sky.500");
+  outline-color: theme('colors.sky.500');
   outline-offset: -1px;
 }
 
@@ -85,11 +119,11 @@ body {
   #fs-frm input:focus,
   #fs-frm select:focus,
   #fs-frm textarea:focus {
-    background-color: theme("colors.sky.800");
+    /* background-color: theme('colors.sky.200'); */
     outline-style: solid;
-    outline-width: thin;
-    outline-color: gray;
-    outline-offset: -1px;
+    outline-width: medium;
+    outline-color: theme('colors.sky.500');
+    /* outline-offset: -1px; */
   }
 
   #fs-frm input,
@@ -97,14 +131,14 @@ body {
   #fs-frm textarea,
   #fs-frm #card-element {
     border: 1px solid rgba(0, 0, 0, 0.2);
-    background-color: theme("colors.sky.900");
+    background-color: theme('colors.sky.50');
     padding: 0.75em 1rem;
     margin-bottom: 1.5rem;
   }
 
   #fs-frm label {
     font-size: 1rem;
-    color: theme("colors.sky.50");
+    color: theme('colors.sky.50');
     margin-bottom: 0.5rem;
     padding-top: 0.2rem;
     display: flex;
@@ -112,33 +146,33 @@ body {
   }
 }
 
-#fs-frm [type="text"],
-#fs-frm [type="email"] {
+#fs-frm [type='text'],
+#fs-frm [type='email'] {
   width: 100%;
 }
-#fs-frm [type="button"],
-#fs-frm [type="submit"],
-#fs-frm [type="reset"] {
+#fs-frm [type='button'],
+#fs-frm [type='submit'],
+#fs-frm [type='reset'] {
   width: auto;
   cursor: pointer;
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
 }
-#fs-frm [type="button"]:focus,
-#fs-frm [type="submit"]:focus,
-#fs-frm [type="reset"]:focus {
+#fs-frm [type='button']:focus,
+#fs-frm [type='submit']:focus,
+#fs-frm [type='reset']:focus {
   outline: none;
 }
-#fs-frm [type="submit"],
-#fs-frm [type="reset"] {
+#fs-frm [type='submit'],
+#fs-frm [type='reset'] {
   margin-bottom: 0;
 }
 #fs-frm select {
   text-transform: none;
 }
 
-#fs-frm [type="checkbox"] {
+#fs-frm [type='checkbox'] {
   -webkit-appearance: checkbox;
   -moz-appearance: checkbox;
   appearance: checkbox;
@@ -147,26 +181,26 @@ body {
   margin: 0 0.5em 0 0 !important;
 }
 
-#fs-frm [type="radio"] {
+#fs-frm [type='radio'] {
   -webkit-appearance: radio;
   -moz-appearance: radio;
   appearance: radio;
 }
 
 /* address, locale */
-#fs-frm fieldset.locale input[name="city"],
-#fs-frm fieldset.locale select[name="state"],
-#fs-frm fieldset.locale input[name="postal-code"] {
+#fs-frm fieldset.locale input[name='city'],
+#fs-frm fieldset.locale select[name='state'],
+#fs-frm fieldset.locale input[name='postal-code'] {
   display: inline;
 }
-#fs-frm fieldset.locale input[name="city"] {
+#fs-frm fieldset.locale input[name='city'] {
   width: 52%;
 }
-#fs-frm fieldset.locale select[name="state"],
-#fs-frm fieldset.locale input[name="postal-code"] {
+#fs-frm fieldset.locale select[name='state'],
+#fs-frm fieldset.locale input[name='postal-code'] {
   width: 20%;
 }
-#fs-frm fieldset.locale input[name="city"],
-#fs-frm fieldset.locale select[name="state"] {
+#fs-frm fieldset.locale input[name='city'],
+#fs-frm fieldset.locale select[name='state'] {
   margin-right: 3%;
 }
