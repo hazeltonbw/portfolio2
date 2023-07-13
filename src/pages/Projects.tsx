@@ -152,6 +152,7 @@ const Projects = () => {
           </TechUsed>
           <Link
             to='https://ecommerce-frontend-cs5n.onrender.com'
+            target='_blank'
             className='flex justify-center mt-auto gap-2 items-center 
             p-4 bg-sky-900 dark:bg-sky-700 rounded-xl text-white hover:bg-sky-800 transition-colors'
           >
@@ -242,6 +243,7 @@ const Projects = () => {
           </TechUsed>
           <Link
             to='https://bwhredditclone.netlify.app/'
+            target='_blank'
             className='flex justify-center mt-auto gap-2 items-center 
             p-4 bg-sky-900 dark:bg-sky-700 rounded-xl text-white hover:bg-sky-800 transition-colors'
           >
@@ -328,6 +330,7 @@ const Projects = () => {
           </TechUsed>
           <Link
             to='https://webejammming.netlify.app'
+            target='_blank'
             className='flex justify-center mt-auto gap-2 items-center 
             p-4 bg-sky-900 dark:bg-sky-700 rounded-xl text-white hover:bg-sky-800 transition-colors'
           >
