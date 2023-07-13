@@ -9,9 +9,19 @@ import {
   FaNodeJs,
   FaReact,
 } from 'react-icons/fa'
-import reddit_gif from '../assets/reddit.gif'
-import ecommerce_img2 from '../assets/ecommerce.gif'
-import jammming_gif from '../assets/jammming4.gif'
+import reddit_mp4 from '../assets/reddit.mp4'
+import reddit_webp from '../assets/reddit.webp'
+import reddit_png from '../assets/reddit.png'
+
+// import reddit_gif from '../assets/reddit.gif'
+// import ecommerce_gif from '../assets/ecommerce.gif'
+// import jammming_gif from '../assets/jammming4.gif'
+import ecommerce_png from '../assets/ecommerce.png'
+import ecommerce_mp4 from '../assets/ecommerce.mp4'
+
+import jammming_png from '../assets/jammming.png'
+import jammming_mp4 from '../assets/jammming.mp4'
+import jammming_webp from '../assets/jammming.webp'
 import TechUsed from '../components/TechUsed'
 import { Link } from 'react-router-dom'
 import {
@@ -63,12 +73,22 @@ const Projects = () => {
                 </Link>
               </div>
             </div>
-            <img
-              src={ecommerce_img2}
-              alt='Screenshot of eCommerce Shopping App'
-              className='rounded-lg object-cover mx-auto'
-              loading='lazy'
-            />
+            <video
+              autoPlay
+              loop
+              muted
+              poster={ecommerce_png}
+              className='rounded-xl'
+            >
+              <source src={ecommerce_mp4} type='video/mp4' />
+              <img
+                src={ecommerce_png}
+                alt='Screenshot of Ecommerce Shopping App'
+                className='rounded-lg object-cover mx-auto'
+                loading='lazy'
+              />
+              Your device does not support the playback of this video.
+            </video>
           </div>
           <aside className=''>
             <h2 className='mt-4'>About</h2>
@@ -165,12 +185,28 @@ const Projects = () => {
                 </Link>
               </div>
             </div>
-            <img
-              src={reddit_gif}
-              alt='Screenshot of Reddit Minimal'
-              className='rounded-lg object-cover mx-auto'
-              loading='lazy'
-            />
+            <video
+              autoPlay
+              loop
+              muted
+              poster={reddit_png}
+              className='rounded-xl'
+            >
+              <source src={reddit_mp4} type='video/mp4' />
+              <img
+                src={reddit_webp}
+                alt='Screenshot of Reddit Minimal'
+                className='rounded-lg object-cover mx-auto'
+                loading='lazy'
+              />
+              <img
+                src={reddit_png}
+                alt='Screenshot of Reddit Minimal'
+                className='rounded-lg object-cover mx-auto'
+                loading='lazy'
+              />
+              Your device does not support the playback of this video.
+            </video>
           </div>
           <aside className=''>
             <h2 className='mt-4'>About</h2>
@@ -239,12 +275,28 @@ const Projects = () => {
                 </Link>
               </div>
             </div>
-            <img
-              src={jammming_gif}
-              alt='Screenshot of Jammming Spotify Playlist Creator'
-              className='rounded-lg object-cover mx-auto'
-              loading='lazy'
-            />
+            <video
+              autoPlay
+              loop
+              muted
+              poster={jammming_png}
+              className='rounded-xl'
+            >
+              <source src={jammming_mp4} type='video/mp4' />
+              <img
+                src={jammming_webp}
+                alt='Screenshot of Jammming Spotify Playlist Creator'
+                className='rounded-lg object-cover mx-auto'
+                loading='lazy'
+              />
+              <img
+                src={jammming_png}
+                alt='Screenshot of Jammming Spotify Playlist Creator'
+                className='rounded-lg object-cover mx-auto'
+                loading='lazy'
+              />
+              Your device does not support the playback of this video.
+            </video>
           </div>
           <aside className=''>
             <h2 className='mt-4'>About</h2>
@@ -284,10 +336,6 @@ const Projects = () => {
           </Link>
         </article>
       </div>
-      <form>
-        <input type='text' name='city' />
-        <button>Submit</button>
-      </form>
     </section>
   )
 }
