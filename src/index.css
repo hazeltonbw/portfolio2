@@ -88,7 +88,8 @@ body {
 #fs-frm input,
 #fs-frm select,
 #fs-frm textarea,
-#fs-frm #card-element {
+#fs-frm #card-element,
+button {
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   color: theme('colors.sky.900');
