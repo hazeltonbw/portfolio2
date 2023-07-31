@@ -22,7 +22,7 @@ const Nav = (props: Props) => {
 
   return (
     <nav
-      className={`flex min-h-[2rem] py-10 px-8 md:flex-row md:flex-none items-center justify-center rounded-b-md w-full overflow-x-hidden ${
+      className={`flex min-h-[2rem] py-10 px-16 md:flex-row md:flex-none items-center justify-center rounded-b-md w-full overflow-x-hidden ${
         props.navIsOpen ? 'flex-col flex-1' : 'flex-row'
       }`}
     >
