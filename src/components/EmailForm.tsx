@@ -1,18 +1,35 @@
 // Make sure to run npm install @formspree/react
 // For more help visit https://formspr.ee/react-help
-import { useForm, ValidationError } from "@formspree/react";
+import { useForm, ValidationError } from '@formspree/react';
 
 function EmailForm() {
-  const [state, handleSubmit] = useForm("mpzgqwwy");
+  const [state, handleSubmit] = useForm('mpzgqwwy');
   if (state.succeeded) {
-    return <p>Thanks! Your email has been sent. I will get back to you as soon as possible!</p>;
+    return (
+      <p>
+        Thanks! Your email has been sent. I will get back to you as soon as
+        possible!
+      </p>
+    );
   }
   return (
     <form id="fs-frm" onSubmit={handleSubmit}>
       <label htmlFor="full-name">Full Name</label>
-      <input type="text" name="name" id="full-name" placeholder="First and Last" required />
+      <input
+        type="text"
+        name="name"
+        id="full-name"
+        placeholder="First and Last"
+        required
+      />
       <label htmlFor="email">Email Address</label>
-      <input id="email" type="email" name="email" placeholder="email@domain.tld" required />
+      <input
+        id="email"
+        type="email"
+        name="email"
+        placeholder="email@domain.tld"
+        required
+      />
       <ValidationError prefix="Email" field="email" errors={state.errors} />
       <label htmlFor="message">Message</label>
       <textarea
@@ -26,9 +43,9 @@ function EmailForm() {
       <button
         type="submit"
         disabled={state.submitting}
-        className="min-w-full dark:hover:!bg-sky-600
-                  !text-sky-50 !bg-sky-700 hover:!bg-sky-600
-                  transition-colors"
+        className="min-w-full !bg-sky-700
+                  !text-sky-50 transition-colors hover:!bg-sky-600
+                  dark:hover:!bg-sky-600"
       >
         Submit
       </button>
