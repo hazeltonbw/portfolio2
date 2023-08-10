@@ -1,5 +1,5 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import TechUsed from "../components/TechUsed";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import TechUsed from '../components/TechUsed'
 import {
   FaReact,
   FaNodeJs,
@@ -8,7 +8,7 @@ import {
   FaLinux,
   FaCss3,
   FaJs,
-} from "react-icons/fa";
+} from 'react-icons/fa'
 import {
   SiRedux,
   SiReactrouter,
@@ -18,34 +18,33 @@ import {
   SiExpress,
   SiPassport,
   SiJest,
-} from "react-icons/si";
-import { VscTerminalBash } from "react-icons/vsc";
-import Tech from "../components/Tech";
+} from 'react-icons/si'
+import { VscTerminalBash } from 'react-icons/vsc'
+import Tech from '../components/Tech'
 
-FontAwesomeIcon;
 const About = () => {
   return (
     <>
-      <section className="sm:my-16">
-        <div className="flex px-4 md:px-32">
-          <div className="flex flex-1 flex-col xl:flex-row">
-            <div className="mb-0 mr-0 max-w-[740px] lg:mb-0 lg:mr-16">
+      <section className='sm:my-16'>
+        <div className='flex px-4 md:px-32'>
+          <div className='flex flex-1 flex-col xl:flex-row'>
+            <div className='mb-0 mr-0 max-w-[740px] lg:mb-0 lg:mr-16'>
               {/* <h1 className="mb-8 hidden text-center font-marck text-5xl text-sky-500 sm:mb-0 sm:text-left sm:text-8xl md:block md:text-6xl lg:text-left ">
                 Brandon Hazelton
               </h1> */}
               <p
-                className="mb-4 text-xl first-letter:text-7xl 
+                className='mb-4 text-xl first-letter:text-7xl
                 first-letter:font-bold
               first-letter:text-sky-500
-                md:text-4xl"
+                md:text-4xl'
               >
-                Hey there! My name is{" "}
-                <span className="font-marck text-5xl text-sky-500">
+                Hey there! My name is{' '}
+                <span className='font-marck text-5xl text-sky-500'>
                   Brandon Hazelton
-                </span>{" "}
+                </span>{' '}
                 and I design and build websites from the ground up.
               </p>
-              <p className="text-lg leading-loose">
+              <p className='text-lg leading-loose'>
                 I'm an enthusiastic and driven full-stack developer with a
                 passion for crafting innovative and user-friendly digital
                 solutions. With a solid foundation in both front-end and
@@ -62,15 +61,15 @@ const About = () => {
               </p>
             </div>
             <div className="after:content-[' '] relative my-16 self-center rounded-xl border-2 border-t-[.9rem] border-slate-700 border-t-slate-600 bg-black pb-20 pl-8 pr-32 pt-6 text-3xl text-white before:absolute before:-top-[2.1rem] before:left-2 before:content-['...'] after:absolute after:inline-block after:h-8 after:w-4 after:animate-blink after:bg-slate-200 after:align-top sm:pb-96 sm:pl-12 sm:pr-96 sm:pt-10 sm:text-4xl sm:before:-top-[2.35rem] sm:before:left-2 after:sm:h-9 after:sm:w-4">
-              <span className="text-sky-500">{">_"}</span>
+              <span className='text-sky-500'>{'>_'}</span>
               build
             </div>
           </div>
         </div>
       </section>
-      <section className="items-center justify-center bg-sky-900 py-16 text-white lg:px-32">
-        <h1 className="mb-16 text-center ">Skills</h1>
-        <TechUsed iconSize={"64"}>
+      <section className='items-center justify-center bg-sky-900 py-16 text-white lg:px-32'>
+        <h1 className='mb-16 text-center '>Skills</h1>
+        <TechUsed iconSize={'64'}>
           <Tech>
             <FaReact />
             <h3>React</h3>
@@ -138,7 +137,7 @@ const About = () => {
         </TechUsed>
       </section>
     </>
-  );
-};
+  )
+}
 
-export default About;
+export default About
