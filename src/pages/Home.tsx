@@ -4,7 +4,7 @@ import { AiOutlineArrowRight } from 'react-icons/ai'
 const Home = () => {
     return (
         <div className='flex flex-col flex-1 items-center justify-center text-center'>
-            <img src={avatar} alt='Avatar of me' />
+            <img src={avatar} alt='Avatar of me' width={264} height={280}/>
             <h1 className='font-playfair  mt-4 font-semibold'>
                 Hey there! My name is{' '}
                 <pre className='font-playfair dark:text-sky-400 text-sky-600'>
