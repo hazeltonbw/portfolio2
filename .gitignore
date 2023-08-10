@@ -1,3 +1,11 @@
 node_modules
 .vscode
 .eslintrc.cjs
+
+# Firebase stuff
+.firebase*
+firebase.*
+firebase*
+
+# ignore Vite build folder
+dist
