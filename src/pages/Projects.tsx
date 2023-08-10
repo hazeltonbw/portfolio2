@@ -11,12 +11,10 @@ import {
 } from 'react-icons/fa'
 import reddit_mp4 from '../assets/reddit.mp4'
 import reddit_webp from '../assets/reddit.webp'
-import reddit_png from '../assets/reddit.png'
 
 import ecommerce_png from '../assets/ecommerce.png'
 import ecommerce_mp4 from '../assets/ecommerce.mp4'
 
-import jammming_png from '../assets/jammming.png'
 import jammming_mp4 from '../assets/jammming.mp4'
 import jammming_webp from '../assets/jammming.webp'
 import TechUsed from '../components/TechUsed'
@@ -184,18 +182,12 @@ const Projects = () => {
               autoPlay
               loop
               muted
-              poster={reddit_png}
+              poster={reddit_webp}
               className='rounded-xl'
             >
               <source src={reddit_mp4} type='video/mp4' />
               <img
                 src={reddit_webp}
-                alt='Screenshot of Reddit Minimal'
-                className='mx-auto rounded-lg object-cover'
-                loading='lazy'
-              />
-              <img
-                src={reddit_png}
                 alt='Screenshot of Reddit Minimal'
                 className='mx-auto rounded-lg object-cover'
                 loading='lazy'
@@ -274,18 +266,12 @@ const Projects = () => {
               autoPlay
               loop
               muted
-              poster={jammming_png}
+              poster={jammming_webp}
               className='rounded-xl'
             >
               <source src={jammming_mp4} type='video/mp4' />
               <img
                 src={jammming_webp}
-                alt='Screenshot of Jammming Spotify Playlist Creator'
-                className='mx-auto rounded-lg object-cover'
-                loading='lazy'
-              />
-              <img
-                src={jammming_png}
                 alt='Screenshot of Jammming Spotify Playlist Creator'
                 className='mx-auto rounded-lg object-cover'
                 loading='lazy'
