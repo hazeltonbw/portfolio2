@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 type Props = {
     to: string;
     innerText: string;
@@ -13,8 +13,8 @@ const CustomNavLink = (props: Props) => {
                 `text-4xl md:text-2xl transition-all ease-in-out hover:text-sky-500 dark:hover:text-sky-500
         font-playfair font-semibold hover:underline hover:underline-offset-8
         ${isActive
-                    ? "underline underline-offset-8 text-sky-500 hover:!text-sky-700"
-                    : ""
+                    ? 'underline underline-offset-8 text-sky-500 hover:!text-sky-700'
+                    : ''
                 }`
             }
             onClick={props.toggleNav}
