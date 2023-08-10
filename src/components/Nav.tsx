@@ -9,9 +9,6 @@ type Props = {
 };
 
 const Nav = (props: Props) => {
-  useEffect(() => {
-    console.log(`nav is open: ${props.navIsOpen}`);
-  }, [props.navIsOpen]);
 
   const toggleNav = () => {
     // Only toggle when nav is open,
