@@ -86,8 +86,9 @@ const Projects = () => {
             <h2 className='mt-4'>About</h2>
             <p className='my-4'>
               This project contains a sample E-Commerce website that allows users to view and add products to
-              their cart. User's are able to register and login in to their account in order to save their 
-              orders and cart state. Features a simple checkout process using Stripe's public API.
+              their cart. User's are able to register and login to their account to save their 
+              orders and cart state. A simple checkout process was implemented using Stripe's public API which allows for easy transactions.
+              User's are then able to see detailed order history which is provided by a database. 
             </p>
           </aside>
           <h2 className=''>Tech used</h2>
