@@ -71,67 +71,67 @@ const About = () => {
         <TechUsed iconSize={'64'}>
           <Tech>
             <FaReact />
-            <h3>React</h3>
+            <p>React</p>
           </Tech>
           <Tech>
             <SiRedux />
-            <h3>Redux</h3>
+            <p>Redux</p>
           </Tech>
           <Tech>
             <SiReactrouter />
-            <h3>React Router</h3>
+            <p>React Router</p>
           </Tech>
           <Tech>
             <SiTypescript />
-            <h3>TypeScript</h3>
+            <p>TypeScript</p>
           </Tech>
           <Tech>
             <SiTailwindcss />
-            <h3>TailwindCSS</h3>
+            <p>TailwindCSS</p>
           </Tech>
           <Tech>
             <SiPostgresql />
-            <h3>PostgreSQL</h3>
+            <p>PostgreSQL</p>
           </Tech>
           <Tech>
             <SiExpress />
-            <h3>Express</h3>
+            <p>Express</p>
           </Tech>
           <Tech>
             <FaNodeJs />
-            <h3>Node</h3>
+            <p>Node</p>
           </Tech>
           <Tech>
             <SiPassport />
-            <h3>Passport</h3>
+            <p>Passport</p>
           </Tech>
           <Tech>
             <FaCcStripe />
-            <h3>Stripe</h3>
+            <p>Stripe</p>
           </Tech>
           <Tech>
             <SiJest />
-            <h3>Jest</h3>
+            <p>Jest</p>
           </Tech>
           <Tech>
             <FaHtml5 />
-            <h3>HTML</h3>
+            <p>HTML</p>
           </Tech>
           <Tech>
             <FaCss3 />
-            <h3>CSS3</h3>
+            <p>CSS3</p>
           </Tech>
           <Tech>
             <FaJs />
-            <h3>JavaScript</h3>
+            <p>JavaScript</p>
           </Tech>
           <Tech>
             <VscTerminalBash />
-            <h3>Shell Scripts</h3>
+            <p>Shell Scripts</p>
           </Tech>
           <Tech>
             <FaLinux />
-            <h3>Unix</h3>
+            <p>Unix</p>
           </Tech>
         </TechUsed>
       </section>

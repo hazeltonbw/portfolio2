@@ -97,51 +97,51 @@ const Projects = () => {
             <Tech>
              
               <FaReact />
-              <h3>React</h3>
+              <p>React</p>
             </Tech>
             <Tech>
               <SiRedux />
-              <h3>Redux</h3>
+              <p>Redux</p>
             </Tech>
             <Tech>
               <SiReactrouter />
-              <h3>React Router</h3>
+              <p>React Router</p>
             </Tech>
             <Tech>
               <SiTypescript />
-              <h3>TypeScript</h3>
+              <p>TypeScript</p>
             </Tech>
             <Tech>
               <SiExpress />
-              <h3>Express</h3>
+              <p>Express</p>
             </Tech>
             <Tech>
               <FaNodeJs />
-              <h3>Node</h3>
+              <p>Node</p>
             </Tech>
             <Tech>
               <SiTailwindcss />
-              <h3>TailwindCSS</h3>
+              <p>TailwindCSS</p>
             </Tech>
             <Tech>
               <SiPassport />
-              <h3>Passport</h3>
+              <p>Passport</p>
             </Tech>
             <Tech>
               <FaCcStripe />
-              <h3>Stripe</h3>
+              <p>Stripe</p>
             </Tech>
             <Tech>
               <SiJest />
-              <h3>Jest</h3>
+              <p>Jest</p>
             </Tech>
             <Tech>
               <SiPostgresql />
-              <h3>PostgreSQL</h3>
+              <p>PostgreSQL</p>
             </Tech>
             <Tech>
               <FaHtml5 />
-              <h3>HTML</h3>
+              <p>HTML</p>
             </Tech>
           </TechUsed>
           <Link
@@ -215,23 +215,23 @@ const Projects = () => {
           <TechUsed iconSize='32'>
             <Tech>
               <FaReact />
-              <h3>React</h3>
+              <p>React</p>
             </Tech>
             <Tech>
               <SiRedux />
-              <h3>Redux</h3>
+              <p>Redux</p>
             </Tech>
             <Tech>
               <FaHtml5 />
-              <h3>HTML</h3>
+              <p>HTML</p>
             </Tech>
             <Tech>
               <FaCss3 />
-              <h3>CSS</h3>
+              <p>CSS</p>
             </Tech>
             <Tech>
               <FaJs />
-              <h3>JavaScript</h3>
+              <p>JavaScript</p>
             </Tech>
           </TechUsed>
           <Link
@@ -305,19 +305,19 @@ const Projects = () => {
           <TechUsed iconSize='32'>
             <Tech>
               <FaReact />
-              <h3>React</h3>
+              <p>React</p>
             </Tech>
             <Tech>
               <FaHtml5 />
-              <h3>HTML</h3>
+              <p>HTML</p>
             </Tech>
             <Tech>
               <FaCss3 />
-              <h3>CSS</h3>
+              <p>CSS</p>
             </Tech>
             <Tech>
               <FaJs />
-              <h3>JavaScript</h3>
+              <p>JavaScript</p>
             </Tech>
           </TechUsed>
           <Link
