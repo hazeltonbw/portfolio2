@@ -1,6 +1,6 @@
 import { IconContext } from 'react-icons';
 type Props = {
-  children: any;
+  children: Array<JSX.Element>;
   iconSize: string;
 };
 
