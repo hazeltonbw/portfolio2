@@ -19,7 +19,7 @@ function EmailForm() {
         type="text"
         name="name"
         id="full-name"
-        placeholder="First and Last"
+        placeholder="John Doe"
         required
       />
       <label htmlFor="email">Email Address</label>
