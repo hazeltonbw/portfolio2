@@ -5,12 +5,12 @@ import React from 'react';
 
 const Footer: React.FunctionComponent = () => {
   return (
-    <footer className="my-6 gap-2 flex flex-col items-center">
-      <Link to="/" aria-label="Link to home page">
-        <Logo size={24} />
-      </Link>
+    <footer className="my-6 gap-1 flex flex-col items-center">
       <ul className="flex items-center justify-center gap-2">
         <li>
+          <Link to="/" aria-label="Link to home page">
+            <Logo size={24} />
+          </Link>
         </li>
         <li>
           <Link
