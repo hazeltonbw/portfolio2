@@ -5,6 +5,7 @@ import {
   FaCcStripe,
   FaHtml5,
   FaLinux,
+  FaDatabase,
   FaCss3,
   FaJs,
 } from 'react-icons/fa'
@@ -13,7 +14,6 @@ import {
   SiReactrouter,
   SiTypescript,
   SiTailwindcss,
-  SiPostgresql,
   SiExpress,
   SiPassport,
   SiJest,
@@ -90,8 +90,8 @@ const About = () => {
             <p>TailwindCSS</p>
           </Tech>
           <Tech>
-            <SiPostgresql />
-            <p>PostgreSQL</p>
+            <FaDatabase />
+            <p>SQL</p>
           </Tech>
           <Tech>
             <SiExpress />
