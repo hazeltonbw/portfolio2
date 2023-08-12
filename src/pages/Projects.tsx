@@ -46,7 +46,7 @@ const Projects = () => {
               <h2 className=''>eCommerce Shopping App</h2>
               <div className='flex gap-x-2'>
                 <Link
-                  to='https://ecommerce-frontend-cs5n.onrender.com'
+                  to='https://shop.hazelton.dev'
                   target='_blank'
                   aria-label='Link to live site'
                   title='Link to live site'
@@ -85,16 +85,18 @@ const Projects = () => {
           <aside className=''>
             <h2 className='mt-4'>About</h2>
             <p className='my-4'>
-              This project contains a sample E-Commerce website that allows users to view and add products to
-              their cart. User's are able to register and login to their account to save their 
-              orders and cart state. A simple checkout process was implemented using Stripe's public API which allows for easy transactions.
-              User's are then able to see detailed order history which is provided by a database. 
+              This project contains a sample E-Commerce website that allows
+              users to view and add products to their cart. User's are able to
+              register and login to their account to save their orders and cart
+              state. A simple checkout process was implemented using Stripe's
+              public API which allows for easy transactions. User's are then
+              able to see detailed order history which is provided by a
+              database.
             </p>
           </aside>
           <h2 className=''>Tech used</h2>
           <TechUsed iconSize='32'>
             <Tech>
-             
               <FaReact />
               <p>React</p>
             </Tech>
@@ -199,9 +201,12 @@ const Projects = () => {
           <aside className=''>
             <h2 className='mt-4'>About</h2>
             <p className='my-4'>
-              Provides users with a simplified presentation of Reddit's most popular categories, 
-              leveraging the capabilities of Reddit's public API. Within this interface, users gain insight into post comments, 
-              like counts, and the usernames of the post creators. This curated view offers a user-friendly way to engage with and explore Reddit's content.
+              Provides users with a simplified presentation of Reddit's most
+              popular categories, leveraging the capabilities of Reddit's public
+              API. Within this interface, users gain insight into post comments,
+              like counts, and the usernames of the post creators. This curated
+              view offers a user-friendly way to engage with and explore
+              Reddit's content.
             </p>
           </aside>
           <h2 className=''>Tech used</h2>
@@ -282,10 +287,13 @@ const Projects = () => {
           </div>
           <aside className=''>
             <h2 className='mt-4'>About</h2>
-            <p className="my-4">
-              Jammming streamlines the process of curating playlists. To begin, users connect their Spotify accounts, 
-              which facilitates the creation of new playlists within their Spotify profile. The user-friendly search 
-              function then quickly finds artists or tracks, which allows users to effortlessly refine and personalize their playlists.
+            <p className='my-4'>
+              Jammming streamlines the process of curating playlists. To begin,
+              users connect their Spotify accounts, which facilitates the
+              creation of new playlists within their Spotify profile. The
+              user-friendly search function then quickly finds artists or
+              tracks, which allows users to effortlessly refine and personalize
+              their playlists.
             </p>
           </aside>
           <h2 className=''>Tech used</h2>
