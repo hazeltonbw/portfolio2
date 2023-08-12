@@ -5,7 +5,7 @@ import React from 'react';
 
 const Footer: React.FunctionComponent = () => {
   return (
-    <footer className="my-6 gap-1 flex flex-col items-center">
+    <footer className="my-8 gap-1 flex flex-col items-center">
       <ul className="flex items-center justify-center gap-2">
         <li>
           <Link to="/" aria-label="Link to home page">
