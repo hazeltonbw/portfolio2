@@ -29,17 +29,18 @@ import {
   SiExpress,
   SiPassport,
   SiJest,
-} from 'react-icons/si';
-import Tech from '../components/Tech';
+} from 'react-icons/si'
+import Tech from '../components/Tech'
+import ScrollToTop from '../components/ScrollToTop'
 
 const Projects = () => {
   return (
-    <section className='p-4'>
+    <section className=''>
       <header>
         <h1 className='my-8 text-center'>Projects</h1>
       </header>
 
-      <div className='grid justify-center gap-8 md:grid-cols-2 lg:m-16 xl:grid-cols-3'>
+      <div className='grid justify-center gap-8 md:grid-cols-2 lg:mx-16 xl:grid-cols-3'>
         <article className='flex flex-1 flex-col rounded-xl p-4'>
           <div className=''>
             <div className='mb-4 flex items-center justify-between'>
@@ -326,6 +327,7 @@ const Projects = () => {
           </Link>
         </article>
       </div>
+      <ScrollToTop />
     </section>
   );
 };
