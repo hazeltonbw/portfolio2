@@ -3,11 +3,9 @@ import {
   FaReact,
   FaNodeJs,
   FaCcStripe,
-  FaArrowUp,
   FaHtml5,
   FaLinux,
   FaDatabase,
-  FaCaretUp,
   FaCss3,
   FaJs,
 } from 'react-icons/fa'
