@@ -8,17 +8,17 @@ import {
   FaLink,
   FaNodeJs,
   FaReact,
-} from 'react-icons/fa'
-import reddit_mp4 from '../assets/reddit.mp4'
-import reddit_webp from '../assets/reddit.webp'
+} from 'react-icons/fa';
+import reddit_mp4 from '../assets/reddit.mp4';
+import reddit_webp from '../assets/reddit.webp';
 
-import ecommerce_png from '../assets/ecommerce.png'
-import ecommerce_mp4 from '../assets/ecommerce.mp4'
+import ecommerce_png from '../assets/ecommerce.png';
+import ecommerce_mp4 from '../assets/ecommerce.mp4';
 
-import jammming_mp4 from '../assets/jammming.mp4'
-import jammming_webp from '../assets/jammming.webp'
-import TechUsed from '../components/TechUsed'
-import { Link } from 'react-router-dom'
+import jammming_mp4 from '../assets/jammming.mp4';
+import jammming_webp from '../assets/jammming.webp';
+import TechUsed from '../components/TechUsed';
+import { Link } from 'react-router-dom';
 
 import {
   SiRedux,
@@ -29,8 +29,8 @@ import {
   SiExpress,
   SiPassport,
   SiJest,
-} from 'react-icons/si'
-import Tech from '../components/Tech'
+} from 'react-icons/si';
+import Tech from '../components/Tech';
 
 const Projects = () => {
   return (
@@ -146,7 +146,7 @@ const Projects = () => {
             </Tech>
           </TechUsed>
           <Link
-            to='https://ecommerce-frontend-cs5n.onrender.com'
+            to='https://shop.hazelton.dev'
             target='_blank'
             className='mt-auto flex items-center justify-center gap-2
             rounded-xl bg-sky-900 p-4 text-white transition-colors hover:bg-sky-800 dark:bg-sky-700'
@@ -327,7 +327,7 @@ const Projects = () => {
         </article>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
